@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&family=Righteous&family=Manrope:wght@600&display=swap');
+
+* {
+  margin: 0 auto;
+}
+
+html {
+  font-size: calc(15px + 0.390625vw);
+}
+
+body {
+  background-color: #EDEDED;
+  color: #1D1D1D;
+  font-family: 'Manrope', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #1D1D1D;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 0.9;
+  letter-spacing: -0.07em;
+  margin-top: 110px;
+}
+
+h2 {
+  /* font-family: 'Sawarabi Mincho', serif; */
+  font-family: sans-serif;
+  font-size: 2rem;
+  margin-top: 50px;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+}
+
+h3 {
+  margin-top: 50px;
+  font-size: 20px;
+  font-family: 'Righteous', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.heroQuote {
+  margin: 300px auto;
+  max-width: 60%;
+  text-align: center;
+}
